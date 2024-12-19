@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+}
+
+.gradient-text {
+  margin: 0;
+  top: 0%;
+  background: linear-gradient(to right, rgb(1, 31, 255), yellow);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+li{
+  list-style-type: none;
+}
