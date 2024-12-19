@@ -7,7 +7,6 @@ function App() {
   return (
     <>
       <header>
-        <h1 class="gradient-text">Hola Soy Matias</h1>
         <nav>
           <ul>
             <li><a href="#home">Home</a></li>
@@ -17,6 +16,8 @@ function App() {
         </nav>
       </header>
       <div>
+        <h1 class="gradient-text">Hi, I'm Mat</h1>
+        <p>Portfolio</p>
       </div>
     </>
   );
