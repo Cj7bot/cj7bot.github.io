@@ -1,1 +1,0 @@
-This is my webpage of my portfolio, thanks.
