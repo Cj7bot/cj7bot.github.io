@@ -8,14 +8,44 @@
     <link rel="icon" href="favicon_io/favicon.ico">
 </head>
 <body>
-    <h1>
-        Hi, I'm Mat
-    </h1>
-    <p>
-        I'm a software engineer and I love to build things.
-    </p>
-    <h2>
-        Brochure
-    </h2>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="about.html" target="_blank">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="hamburger" style="background-color: tomato; border-radius: 10px;">
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#FFFFFF">
+                <path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/>
+            </svg>
+        </button>
+    </header>
+    <br>
+    <div class="video-container">
+        <video width="1000" height="400" autoplay loop muted>
+            <source src="Video/galaxy.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="overlay-text">
+        <h1>
+            Hi, I'm Mat
+        </h1>
+        <p>
+            I'm a software engineer and I love to build things.
+        </p>
+        <h2>
+            Brochure
+        </h2>
+        <button class="downloads">DOWNLOAD</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
